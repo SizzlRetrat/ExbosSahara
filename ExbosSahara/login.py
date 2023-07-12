@@ -4,7 +4,7 @@ wait(50ms)
 yourlogin2023 = Githubuser@Exbos
 print yourlogin2023
 wait(50ms)
-print "please login to Githubuser@exbos"
+print "please login to Githubuser@Exbos"
 if user == "0000"
 open(/ExbosSahara/main.py)
 else:
