@@ -2,7 +2,7 @@
 EXBOS for the Upcoming EXBGC
 v1.1.1 not ready yet
 auto username is Githubuser@Exbgc and password is 0000
-see login.py to change this when distrobuting
+see login.py to change this when distrobuting, The main branch is v1.1.1 any new versions will have a new branch
 Estimated Required Specs:
 1. 2GB SSD, HDD, SD, MSD, SATA SSD, SATA HDD or fdd
 2. 120MB RAM, SSD RAM, GRAM or HDD RAM
@@ -10,4 +10,3 @@ Estimated Required Specs:
 4. 0mtps GPU (no gpu needed)
 5. exFAT FS or FAT32 FS
 6. Another pc to reprogram
-                                  The main branch is v1.1.1 any new versions will have a new branch
