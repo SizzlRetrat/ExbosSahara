@@ -10,4 +10,4 @@ Estimated Required Specs:
 4. 0mtps GPU (no gpu needed)
 5. exFAT FS or FAT32 FS
 6. Another pc to reprogram
-   The main branch is v1.1.1 any new versions will have a new branch
+                                  The main branch is v1.1.1 any new versions will have a new branch
