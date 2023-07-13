@@ -7,14 +7,14 @@ if user == "GAME"
 open(/Games/Games.py)
 if user == "BUILD"
 print "BUILD V1.1.1"
-wait(50ms)
+sleep(50ms)
 def repeat(1)
 if user == "CommandApplication"
 open(/ExbosSahara/ca.py)
 if user == "EXBGC"
 print "The EXBGC runs on a pi zero w see specsheet at
 raspberrypi.com"
-wait(50ms)
+sleep(50ms)
 def repeat(1)
 
 
