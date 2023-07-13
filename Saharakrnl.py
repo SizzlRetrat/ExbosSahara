@@ -2,9 +2,9 @@ hi = randint(1,10)
 print hi
 sleep(50ms)
 print"
----------------ExbosSahara v1.1.1 fully loaded---------------
+-----------------ExbosSahara v1 fully loaded-----------------
 ---------------ExbosSahara is copyright EXBINC---------------
------------------build 1.1.1 genuine github -----------------
+-------------------build 1 genuine github -------------------
 ------------Loading your desktop, wait 10 seconds------------
 
 
