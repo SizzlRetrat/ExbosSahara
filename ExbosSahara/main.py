@@ -21,6 +21,6 @@ def repeat(1)
 if user == "MyApps"
 open(/PersonalApps/control.py)
 if user == "RegEdit"
-open(/ExbosSahara/
+open(/ExbosSahara/ReferenceReg/reg.py)
 
 
