@@ -20,5 +20,7 @@ sleep(50ms)
 def repeat(1)
 if user == "MyApps"
 open(/PersonalApps/control.py)
+if user == "RegEdit"
+open(/ExbosSahara/
 
 
