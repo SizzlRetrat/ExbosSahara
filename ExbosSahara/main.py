@@ -22,5 +22,9 @@ if user == "MyApps"
 open(/PersonalApps/control.py)
 if user == "RegEdit"
 open(/ExbosSahara/ReferenceReg/reg.py)
+if user == "BuildStatus"
+print "Build 0000"
+sleep(200ms)
+def repeat(1)
 
 
