@@ -1,7 +1,7 @@
 hi = randint(1,10)
 print hi
 sleep(50ms)
-print"
+print "
 -----------------ExbosSahara v1 fully loaded-----------------
 ---------------ExbosSahara is copyright EXBINC---------------
 --------------------build 0000  genuine  --------------------
