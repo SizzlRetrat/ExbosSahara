@@ -4,12 +4,12 @@ sleep(50ms)
 print"
 -----------------ExbosSahara v1 fully loaded-----------------
 ---------------ExbosSahara is copyright EXBINC---------------
--------------------build 1 genuine github -------------------
+--------------------build 0000  genuine  --------------------
 ------------Loading your desktop, wait 10 seconds------------
 
 
 
-------------------------buildco 1010-------------------------
+------------------------buildco 0000-------------------------
 "
 
 sleep(1000ms)
