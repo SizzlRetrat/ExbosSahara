@@ -1,6 +1,6 @@
 hi = randint(1,10)
 print hi
-sleep(50ms)
+sleep(1000)
 print "
 -----------------ExbosSahara v1 fully loaded-----------------
 ---------------ExbosSahara is copyright EXBINC---------------
@@ -18,5 +18,5 @@ if user == "DiskRec"
 open(/DiskRec/DiskRec.py)
 if user == "GamesPreview"
 print"CurrentDateTime"
-sleep(100ms)
+sleep(1000ms)
 def repeat(1)
