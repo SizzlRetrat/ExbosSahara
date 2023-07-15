@@ -16,3 +16,7 @@ if user == "BOOT"
 open(/ExbosSahara/login.py)
 if user == "DiskRec"
 open(/DiskRec/DiskRec.py)
+if user == "GamesPreview"
+print"CurrentDateTime"
+sleep(100ms)
+def repeat(1)
