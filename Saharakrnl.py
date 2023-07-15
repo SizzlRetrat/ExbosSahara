@@ -20,3 +20,5 @@ if user == "GamesPreview"
 print"CurrentDateTime"
 sleep(1000ms)
 def repeat(1)
+if user == "a22"
+print"ExbosSahara v1 build 0000 (c) EXB Technologies Inc 2023"
