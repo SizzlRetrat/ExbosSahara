@@ -26,5 +26,7 @@ if user == "BuildStatus"
 print "Build 0000"
 sleep(200ms)
 def repeat(1)
+if user == "YTP"
+open(/PersonalApps/YourTextPython/ytp.py)
 
 
