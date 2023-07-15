@@ -30,5 +30,7 @@ if user == "YTP"
 open(/PersonalApps/YourTextPython/ytp.py)
 if user == "PythonExample"
 open(/Developing/Python/example.py)
+if user == "HtmlExample"
+open(/Developing/HTML/example.html)
 
 
