@@ -9,7 +9,7 @@ if user == "GAME"
 open(/Games/Games.py)
 if user == "BUILD"
 print "BUILD V1"
-sleep(50ms)
+sleep(1000ms)
 def repeat(1)
 if user == "CommandApplication"
 open(/ExbosSahara/ca.py)
@@ -24,7 +24,7 @@ if user == "RegEdit"
 open(/ExbosSahara/ReferenceReg/reg.py)
 if user == "BuildStatus"
 print "Build 0000"
-sleep(200ms)
+sleep(2000ms)
 def repeat(1)
 if user == "YTP"
 open(/PersonalApps/YourTextPython/ytp.py)
