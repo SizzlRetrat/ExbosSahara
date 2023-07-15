@@ -7,10 +7,12 @@ print "
 --------------------build 0000  genuine  --------------------
 ------------Loading your desktop, wait 10 seconds------------
 
-
+-------------Type BOOT to Boot into ExbosSahara--------------
 
 ------------------------buildco 0000-------------------------
 "
 
-sleep(1000ms)
+if user == "BOOT"
 open(/ExbosSahara/login.py)
+if user == "DiskRec"
+open(/DiskRec/DiskRec.py)
