@@ -4,3 +4,5 @@ print"
 "
 if user == "EXIT"
 open(/Saharakrnl.py)
+if user == "RepairBoot"
+open(/DiskRec/login.py)
