@@ -28,5 +28,7 @@ sleep(2000ms)
 def repeat(1)
 if user == "YTP"
 open(/PersonalApps/YourTextPython/ytp.py)
+if user == "PythonExample"
+open(/Developing/Python/example.py)
 
 
