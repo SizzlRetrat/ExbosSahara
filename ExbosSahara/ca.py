@@ -4,11 +4,11 @@ if user == "GameSet"
 print "EXBGC specs
 1Ghz cpu 512MB ram 16GB msd storage
 USB 2.0 "
-sleep(1000ms)
+sleep(10000ms)
 def repeat(1)
 if user == "EXIT"
 open(/ExbosSahara/main.py)
 if user == "CmdEchoPlus"
 hi = randint(1,100000)
-sleep(500ms)
+sleep(1000ms)
 def repeat(1)
