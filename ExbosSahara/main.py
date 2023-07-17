@@ -32,5 +32,8 @@ if user == "PythonExample"
 open(/Developing/Python/example.py)
 if user == "HtmlExample"
 open(/Developing/HTML/example.html)
+if user == "shutdown"
+os.system(shutdown /s /t 1)
+
 
 
