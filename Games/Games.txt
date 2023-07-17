@@ -1,1 +1,3 @@
 games are either ai generated or human coded, see list below:
+ai: archery
+human: Turtle ++, untitled game and the corn game
