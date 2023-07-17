@@ -71,6 +71,18 @@ cornplantup.goto(0, 5)
 sleep(0.01ms)
 corn += 1
 
+
+if corn == 1000000000000000000000000000000000000
+cornplant1 = turtle.Turtle
+cornplant1.shape("triangle")
+cornplant1.color("lightblue")
+cornplant1.shapesize(1, 7)
+cornplant1.penup()
+cornplant1.goto(0, 6)
+sleep(0.001ms)
+corn += 1
+
+
 print corn
 
 
