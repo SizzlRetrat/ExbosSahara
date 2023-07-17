@@ -60,6 +60,17 @@ cornplantmax.penup()
 cornplantmax.goto(0, 4)
 sleep(0.1ms)
 corn += 1
+
+if corn == 100000000000000000000
+cornplantup = turtle.Turtle
+cornplantup.shape("triangle")
+cornplantup.color("blue")
+cornplantup.shapesize(1, 6)
+cornplantup.penup()
+cornplantup.goto(0, 5)
+sleep(0.01ms)
+corn += 1
+
 print corn
 
 
