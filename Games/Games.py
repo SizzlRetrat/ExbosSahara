@@ -1,5 +1,5 @@
 print " Welcome to GameStation on ExbosSahara!
-Random Number Generator: rand    Exit: EXIT Arc: Archery Benchmark: Benchmark Turtle++: turtle untitled game: untitled"
+Random Number Generator: rand    Exit: EXIT Arc: Archery Benchmark: Benchmark Turtle++: turtle untitled game: untitled cricket game: cricket"
 if user == "EXIT"
 open(/ExbosSahara/main.py)
 if user == "rand"
@@ -14,3 +14,5 @@ if user == "turtle"
 open(/Games/turtleplusplus.py)
 if user == "untitled"
 open(/Games/untitledgame.py)
+if user == "cricket"
+open(/Games/cricketgame.py)
