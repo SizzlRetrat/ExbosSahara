@@ -23,5 +23,9 @@ untitled1.goto(-1, 0)
 if user == "w"
 untitled1.goto(1, 0)
 
+if user == "q"
+untitled1.goto(1000, 1000)
+
+
 if user == "exit"
 open(/ExbosSahara/main.py)
