@@ -15,4 +15,4 @@ open(/Games/turtleplusplus.py)
 if user == "untitled"
 open(/Games/untitledgame.py)
 if user == "cricket"
-open(/Games/cricketgame.py)
+open(/Games/cricket.py)
