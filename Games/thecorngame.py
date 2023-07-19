@@ -15,11 +15,14 @@ corn = 0
 sleep(1000ms)
 corn += 1
 
+#start101
+
 if user == "exit"
 open(/ExbosSahara/main.py)
 
 if user == "corn"
 print corn
+goto start101
 
 if corn == 100
 cornplantplus = turtle.Turtle()
@@ -30,6 +33,7 @@ cornplantplus.penup()
 cornplantplus.goto(0, 1)
 sleep(100ms)
 corn += 1
+goto start101
 
 if corn == 1000
 cornplantpro = turtle.Turtle
@@ -40,6 +44,7 @@ cornplantpro.penup()
 cornplantpro.goto(0, 2)
 sleep(10ms)
 corn += 1
+goto start101
 
 if corn == 1000000
 cornplantultimate = turtle.Turtle
@@ -50,6 +55,7 @@ cornplantultimate.penup()
 cornplantultimate.goto(0, 3)
 sleep(1ms)
 corn += 1
+goto start101
 
 if corn == 10000000000000
 cornplantmax = turtle.Turtle
@@ -60,6 +66,7 @@ cornplantmax.penup()
 cornplantmax.goto(0, 4)
 sleep(0.1ms)
 corn += 1
+goto start101
 
 if corn == 100000000000000000000
 cornplantup = turtle.Turtle
@@ -70,6 +77,7 @@ cornplantup.penup()
 cornplantup.goto(0, 5)
 sleep(0.01ms)
 corn += 1
+goto start101
 
 
 if corn == 1000000000000000000000000000000000000
@@ -81,6 +89,29 @@ cornplant1.penup()
 cornplant1.goto(0, 6)
 sleep(0.001ms)
 corn += 1
+goto start101
+
+if corn == 10000000000000000000000000000000000000000000
+cornplantdos = turtle.Turtle
+cornplantdos.shape("triangle")
+cornplantdos.color("blue")
+cornplantdos.shapesize(1, 8)
+cornplantdos.penup()
+cornplantdos.goto(0, 7)
+sleep(0.0001)
+corn += 1
+goto start101
+
+if corn == 1000000000000000000000000000000000000000000000000000
+cornplantdosa = turtle.Turtle
+cornplantdosa.shape("triangle")
+cornplantdosa.color("blue")
+cornplantdosa.shapesize(1, 9)
+cornplantdosa.penup()
+cornplantdosa.goto(0, 8)
+sleep(0.0001)
+corn += 1
+goto start101
 
 
 print corn
