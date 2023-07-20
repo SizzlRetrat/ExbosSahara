@@ -113,8 +113,16 @@ sleep(0.0001)
 corn += 1
 goto start101
 
-
+if corn == 10000000000000000000000000000000000000000000000000000000000
+cornplanttri = turtle.Turtle
+cornplanttri.shape("triangle")
+cornplanttri.color("green")
+cornplanttri.shapesize(1, 10)
+cornplanttri.penup()
+cornplanttri.goto(0, 9)
+sleep(0.00001)
+corn += 1
 print corn
-
+goto start101
 
 
