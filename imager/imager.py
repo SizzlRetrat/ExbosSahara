@@ -203,7 +203,198 @@ write(/Games/GraphicsTester.py "
  sleep(2000ms)
  open(/ExbosSahara/main.py)
  ")
+open(/Games/Random-Number-Generator.py 'w')
+write(/Games/Random-Number-Generator.py "
+ hello = randint(0,60)
+ print hello hello hello hello hello hello
+ wait(90ms)
+ print"Text Repeat to Repeat Text END to end"
+ if user == Repeat
+ def repeat ()
+ if user == END
+ open(/ExbosSahara/main.py)
+ ")
+open(/Games/archery.py 'w')
+write/Games/archery.py "
  
+
+ # Import the turtle module
+ import turtle
+
+ # Create a screen object
+ screen = turtle.Screen()
+ screen.title("Archery Game")
+ screen.bgcolor("lightblue")
+
+ # Create a turtle object for the bow
+ bow = turtle.Turtle()
+ bow.shape("square")
+ bow.color("brown")
+ bow.shapesize(0.5, 4)
+ bow.penup()
+ bow.goto(-300, 0)
+
+ # Create a turtle object for the arrow
+ arrow = turtle.Turtle()
+ arrow.shape("triangle")
+ arrow.color("black")
+ arrow.shapesize(0.5, 2)
+ arrow.penup()
+ arrow.goto(-300, 0)
+ arrow.setheading(90)
+
+ # Create a turtle object for the target
+ target = turtle.Turtle()
+ target.shape("circle")
+ target.color("red")
+ target.shapesize(5, 5)
+ target.penup()
+ target.goto(200, 0)
+
+ # Define a function to shoot the arrow
+ def shoot():
+ # Get the angle and force from the user
+ angle = int(screen.textinput("Angle", "Enter the angle (0-90): "))
+ force = int(screen.textinput("Force", "Enter the force (1-10): "))
+
+ # Set the arrow heading and speed
+ arrow.setheading(angle)
+ arrow.speed(force)
+
+ # Move the arrow until it hits the target or misses
+ while True:
+ arrow.forward(10)
+ x = arrow.xcor()
+ y = arrow.ycor()
+
+ # Check if the arrow hits the target
+ if x > 180 and x < 220 and y > -50 and y < 50:
+ # Display a message and end the game
+ screen.textinput("Result", "You hit the target!")
+ break
+
+ # Check if the arrow misses the target
+ if x > 300 or y > 300 or y < -300:
+ # Display a message and end the game
+ screen.textinput("Result", "You missed the target!")
+ break
+
+ # Bind the space key to the shoot function
+ screen.onkey(shoot, "space")
+
+ # Listen for keyboard events
+ screen.listen()
+
+ # Main loop
+ screen.mainloop()
+ ")
+open(/Games/cricket.py 'w')
+write(/Games/cricket.py "
+ 
+ # A cricket game that people can play in Python
+
+ # Import random module
+ import random
+
+ # Define the teams
+ team_a = input("Enter the name of team A: ")
+ team_b = input("Enter the name of team B: ")
+
+ # Define the overs
+ overs = int(input("Enter the number of overs: "))
+
+ # Define the score variables
+ score_a = 0
+ score_b = 0
+ wickets_a = 0
+ wickets_b = 0
+
+ # Define the possible outcomes of a ball
+ outcomes = [0, 1, 2, 3, 4, 6, "W"]
+
+ # Define a function to simulate an over
+ def over(batting_team, bowling_team, score, wickets):
+ # Print the over details
+ print(f"{batting_team} is batting against {bowling_team}.")
+ print(f"Score: {score}-{wickets}")
+ # Loop through the six balls of the over
+ for i in range(1, 7):
+ # Print the ball number
+ print(f"Ball {i}: ", end="")
+ # Ask the player to choose an outcome
+ outcome = input(f"Choose one of {outcomes}: ")
+ # Validate the input
+ while outcome not in outcomes:
+ print("Invalid input. Try again.")
+ outcome = input(f"Choose one of {outcomes}: ")
+ # Check if the outcome is a wicket
+ if outcome == "W":
+ # Increment the wickets by one
+ wickets += 1
+ # Print that the batsman is out
+ print("OUT!")
+ # Check if the batting team is all out
+ if wickets == 10:
+ # Print that the innings is over
+ print(f"{batting_team} is all out.")
+ # Return the final score and wickets
+ return score, wickets
+ else:
+ # Convert the outcome to an integer
+ outcome = int(outcome)
+ # Increment the score by the outcome
+ score += outcome
+ # Print the outcome
+ print(outcome)
+ # Print the over summary
+ print(f"End of over. Score: {score}-{wickets}")
+ # Return the score and wickets after the over
+ return score, wickets
+
+ # Simulate the first innings
+ print(f"Welcome to the {overs}-over cricket match between {team_a} and {team_b}.")
+ print(f"{team_a} has won the toss and elected to bat first.")
+ # Loop through the overs of the first innings
+ for i in range(overs):
+ # Call the over function and update the score and wickets for team A
+ score_a, wickets_a = over(team_a, team_b, score_a, wickets_a)
+ # Check if team A is all out
+ if wickets_a == 10:
+ # Break out of the loop
+ break
+
+ # Print the first innings summary
+ print(f"End of first innings. {team_a} has scored {score_a}-{wickets_a} in {overs} overs.")
+
+ # Simulate the second innings
+ print(f"{team_b} needs {score_a + 1} runs to win in {overs} overs.")
+ # Loop through the overs of the second innings
+ for i in range(overs):
+ # Call the over function and update the score and wickets for team B
+ score_b, wickets_b = over(team_b, team_a, score_b, wickets_b)
+ # Check if team B has reached or exceeded the target
+ if score_b >= score_a + 1:
+ # Print that team B has won and break out of the loop
+ print(f"{team_b} has won by {10 - wickets_b} wickets.")
+ break
+ # Check if team B is all out or has run out of overs
+ if wickets_b == 10 or i == overs - 1:
+ # Print that team A has won and break out of the loop
+ print(f"{team_a} has won by {score_a - score_b} runs.")
+ break
+
+ # Print the second innings summary
+ print(f"End of second innings. {team_b} has scored {score_b}-{wickets_b} in {overs} overs.")
+ ")
+open(/Games/gamestest.py 'w')
+write(/Games/gamestest.py "
+ print"-----------gamestest-----------"
+ if user == "EXIT"
+ open(/ExbosSahara/main.py)
+ ")
+
+
+
  
 
  
